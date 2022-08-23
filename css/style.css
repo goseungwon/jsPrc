@@ -1,3 +1,16 @@
 .hidden {
   display: none;
 }
+
+#bgImg {
+  background-image: none;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

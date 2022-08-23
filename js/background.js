@@ -14,8 +14,13 @@ const images = [
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 
-const bgImage = document.createElement("img");
+const bgImage = document.querySelector("#bgImg");
 
-bgImage.src=`img/${chosenImage}`;
+bgImage.style=`background-image: url(img/${chosenImage})`
 
-document.body.appendChild(bgImage);
+
+
+
+// const bgImage = `img/${chosenImage}`;
+// const bodyTag = document.querySelector("body");
+// bodyTag.style.backgroundImage=`url(${bgImage})`
