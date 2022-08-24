@@ -8,9 +8,37 @@
   background-position: center;
   background-size: cover;
   min-height: 100vh;
+
+  display: flex;
+  align-items: center;
 }
 
 * {
   margin: 0;
   padding: 0;
+  color: aliceblue;
+}
+
+input{
+  border: 1px;
+  background: transparent;
+  box-shadow: 3px 3px black;
+}
+
+#content{
+  margin: auto;
+  text-align: center;
+}
+
+#todo-list{
+  list-style-type: none;
+}
+
+#clock{
+  font-size: 350%;
+  margin-bottom: 40px;
+}
+
+#quote{
+  margin-top: 30vw;
 }
